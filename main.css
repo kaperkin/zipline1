@@ -135,9 +135,10 @@ p {
     margin-bottom: 40px;
 }
 
-.well{
+.well {
+    background-image: linear-gradient(to bottom, #701f1a 0px, #333218 100%);
     color: whitesmoke;
     margin-bottom: 0;
-    min-height: 400px;
-    background-image: linear-gradient(to bottom, #701f1a 0px, #333218 100%);
+    min-height: 375px;
+    padding: 75px 15px;
 }
