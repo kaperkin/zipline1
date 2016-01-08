@@ -22,7 +22,7 @@ body {
 }
 
 .btn-default a {
-    color: #701F1A;
+    color: #000;
 }
 
 .btn-default a i {
@@ -44,7 +44,7 @@ body {
 }
 
 .jumbotron {
-    background-image: url('http://colourlovers.com.s3.amazonaws.com/images/patterns/5056/5056838.png?1451853912');
+    background-image: linear-gradient(to bottom, #333218 0px, #238775 100%);
     border-bottom: 4px solid #333218;
     border-top: 2px solid #333218;
     height: 650px;
@@ -55,21 +55,22 @@ h1 {
     color: black;
     font-size: 38px;
     text-align: center;
-    text-shadow: 2px 2px 1px #aaa;
+    text-shadow: 2px 2px 1px #ccc;
 }
 
 .jumbotron h1 {
-    color: #701F1A;
+    color: #aaa;
     font-size: 83px;
     font-weight: bold;
 }
 
 .navbar {
-    border: 0 rgba(39,95,130, 1); solid;
+    border: 0 rgba(39, 95, 130, 1);
+    solid;
 }
 
 .navbar div {
-    background-color: rgba(39,95,130, 1);
+    background-color: rgba(39, 95, 130, 1);
 }
 
 .navbar-right li {
@@ -79,13 +80,13 @@ h1 {
 }
 
 .navbar-default .navbar-right li a {
-    color: white;
+    color: #fff;
 }
 
 .navbar-default .navbar-right li a:hover {
     background-color: #DEDA6A;
     border-radius: 4px;
-    color: #701F1A;
+    color: #000;
 }
 
 .navbar-default .navbar-brand {
@@ -93,7 +94,7 @@ h1 {
 }
 
 .navbar-default .navbar-brand:hover {
-    color: #DEDA6A;
+    color: #000;
 }
 
 .navbar-default .navbar-header button {
@@ -109,15 +110,15 @@ p {
     margin-top: 6px;
 }
 
- .turkey > .panel-default > .panel-heading {
-    background-image: linear-gradient(to bottom, #701f1a 0px, #e8cbca 100%);
+.turkey > .panel-default > .panel-heading {
+    background-image: linear-gradient(to bottom, rgba(39, 95, 130, 1) 0px, #d7dce8 100%);
 }
 
 .honey > .panel-default > .panel-heading {
     background-image: linear-gradient(to bottom, #deda6a 0px, #e8e6c5 100%);
 }
 
- .cheese > .panel-default > .panel-heading {
+.cheese > .panel-default > .panel-heading {
     background-image: linear-gradient(to bottom, #238755 0px, #c1e8c9 100%);
 }
 
@@ -136,9 +137,11 @@ p {
 }
 
 .well {
-    background-image: linear-gradient(to bottom, #701f1a 0px, #333218 100%);
-    color: whitesmoke;
+    background-image: url('http://colourlovers.com.s3.amazonaws.com/images/patterns/5056/5056838.png?1451853912');
+    background-repeat: repeat;
+    color: #000;
     margin-bottom: 0;
     min-height: 375px;
     padding: 75px 15px;
+    text-shadow: 1px 1px 1px #ccc;
 }
