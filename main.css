@@ -48,6 +48,7 @@ body {
     border-bottom: 4px solid #333218;
     border-top: 2px solid #333218;
     height: 650px;
+    padding-top: 60px;
 }
 
 .jumbotron p,
@@ -102,7 +103,7 @@ h1 {
 }
 
 .navbar-default .navbar-header button:hover {
-    background-color: #DEDA6A;
+    background-color: #000;
 }
 
 p {
