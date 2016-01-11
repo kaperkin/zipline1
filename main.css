@@ -5,7 +5,7 @@ body {
 }
 
 .aboutMe {
-    background-color: rgba(232,232,232, .8);
+    background-color: rgba(232, 232, 232, .8);
     padding: 60px;
     border-radius: 20px;
 }
@@ -54,7 +54,6 @@ body {
 
 .jumbotron {
     background-image: linear-gradient(to bottom, #990100 0px, #b90504 100%);
-    /*border-bottom: 4px solid #e3cdc4;*/
     border-top: 2px solid #e8e8e8;
     height: 650px;
     padding-top: 60px;
@@ -65,13 +64,16 @@ h1 {
     color: #aaa;
     font-size: 38px;
     text-align: center;
-    text-shadow: 2px 2px 1px #6e6460;
 }
 
 .jumbotron h1 {
     color: #f6f6f6;
     font-size: 83px;
     font-weight: bold;
+}
+
+.jumbotron p {
+    margin-bottom: 125px;
 }
 
 .navbar {
@@ -144,12 +146,17 @@ p {
     border: none;
     color: #f6f6f6;
     margin-bottom: 0;
-    min-height: 375px;
+    min-height: 300px;
     padding: 75px 15px;
 
+}
+
+.well .btn {
+    font-size: 1.15em;
 }
 
 .well p a {
     color: #e8e8e8;
     font-weight: 500;
 }
+
