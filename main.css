@@ -59,21 +59,17 @@ body {
     padding-top: 60px;
 }
 
-.jumbotron p,
-h1 {
-    color: #aaa;
-    font-size: 38px;
-    text-align: center;
-}
-
 .jumbotron h1 {
     color: #f6f6f6;
     font-size: 83px;
-    font-weight: bold;
+    font-weight: 700;
+    margin-bottom: 135px;
+    text-align: center;
 }
 
-.jumbotron p {
-    margin-bottom: 125px;
+.jumbotron .picture-row a {
+    font-size: 2.15em;
+    color: #f8f8f8;
 }
 
 .navbar {
