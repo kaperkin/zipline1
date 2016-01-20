@@ -3,6 +3,14 @@ body {
     padding-top: 30px;
 }
 
+a{
+    color: #D6D1AF;
+}
+
+a:hover{
+    color: #E47267;
+}
+
 .aboutMe {
     background-color: rgba(232, 232, 232, .8);
     padding: 60px;
