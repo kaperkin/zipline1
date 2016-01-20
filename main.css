@@ -1,6 +1,5 @@
 body {
-    background-color: rgba(246, 246, 246, 1);
-    box-sizing: border-box;
+    background-color: #D7D8C5;
     padding-top: 30px;
 }
 
@@ -49,18 +48,18 @@ body {
 }
 
 .img-circle {
-    border: 4px #333 solid;
+    border: 3px #E47267 solid;
 }
 
 .jumbotron {
-    background-image: linear-gradient(to bottom, #990100 0px, #b90504 100%);
+    background-image: linear-gradient(to bottom, #D6D1AF 0px, #E6E5C4 100%);
     border-top: 2px solid #e8e8e8;
     height: 650px;
     padding-top: 60px;
 }
 
 .jumbotron h1 {
-    color: #f6f6f6;
+    color: #999;
     font-size: 93px;
     font-weight: 700;
     margin-bottom: 135px;
@@ -69,7 +68,11 @@ body {
 
 .jumbotron .picture-row a {
     font-size: 2.15em;
-    color: #f8f8f8;
+    color: #999999;
+}
+
+.jumbotron .picture-row a:hover{
+    color: #E47267;
 }
 
 .navbar {
@@ -86,7 +89,7 @@ body {
 
 .navbar-default .navbar-right li a:hover {
     background-color: #f6f6f6;
-    color: #b90504;
+    color: #E47267;
 }
 
 .navbar-default .navbar-brand {
@@ -94,7 +97,7 @@ body {
 }
 
 .navbar-default .navbar-brand:hover {
-    color: #b90504;
+    color: #E47267;
 }
 
 .navbar-default .navbar-header button {
@@ -123,22 +126,22 @@ p {
 }
 
 .panel-title {
-    color: #333218;
+    color: #8A8780;
 }
 
 .products {
-    background-image: linear-gradient(to bottom, #b90504 0px, #900100 100%);
+    background-image: linear-gradient(to bottom, #D7D8C5 0px, #E6E5C4 100%);
     margin-top: 60px;
     padding: 40px;
 }
 
 .products h2, .future-products h2 {
-    color: #f6f6f6;
+    color: #E47267;
     margin-bottom: 40px;
 }
 
 .well {
-    background-image: linear-gradient(to bottom, #222 0px, #333 100%);
+    background-image: linear-gradient(to bottom, #8A8780 0px, #222 100%);
     border: none;
     color: #f6f6f6;
     margin-bottom: 0;
@@ -155,4 +158,3 @@ p {
     color: #e8e8e8;
     font-weight: 500;
 }
-
