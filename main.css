@@ -70,7 +70,7 @@ a:hover{
 
 .jumbotron h1 {
     color: #eee;
-    font-size: 93px;
+    font-size: 6em;
     font-weight: 700;
     margin-bottom: 135px;
     text-align: center;
@@ -173,4 +173,10 @@ p {
 }
 .btn-default a:hover i{
     color: #32080C;
+}
+
+@media (max-width: 800px){
+    .jumbotron h1{
+        font-size: 5em;
+    }
 }
