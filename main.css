@@ -1,18 +1,20 @@
 body {
-    background-color: #D7D8C5;
+    background-color: #E8E8E8;
+    font-family: 'Droid Serif', serif;
     padding-top: 30px;
+    color: #333;
 }
 
 a{
-    color: #8A8780;
+    color: #333;
 }
 
 a:hover{
-    color: #E47267;
+    color: #32080C;
 }
 
 .aboutMe {
-    background-color: rgba(232, 232, 232, .8);
+    background-color: rgba(102, 102, 102, .3);
     padding: 60px;
     border-radius: 20px;
 }
@@ -56,18 +58,18 @@ a:hover{
 }
 
 .img-circle {
-    border: 3px #E47267 solid;
+    border: 3px #32080C solid;
 }
 
 .jumbotron {
-    background-image: linear-gradient(to bottom, #D6D1AF 0px, #E6E5C4 100%);
+    background-image: linear-gradient(to bottom, #000 0px, #f9f9f9 100%);
     border-top: 2px solid #e8e8e8;
     height: 650px;
     padding-top: 60px;
 }
 
 .jumbotron h1 {
-    color: #999;
+    color: #eee;
     font-size: 93px;
     font-weight: 700;
     margin-bottom: 135px;
@@ -76,11 +78,11 @@ a:hover{
 
 .jumbotron .picture-row a {
     font-size: 2.15em;
-    color: #999999;
+    /*color: #999999;*/
 }
 
 .jumbotron .picture-row a:hover{
-    color: #E47267;
+    color: #32080C;
 }
 
 .navbar {
@@ -97,7 +99,7 @@ a:hover{
 
 .navbar-default .navbar-right li a:hover {
     background-color: #f6f6f6;
-    color: #E47267;
+    color: #32080C;
 }
 
 .navbar-default .navbar-brand {
@@ -105,7 +107,7 @@ a:hover{
 }
 
 .navbar-default .navbar-brand:hover {
-    color: #E47267;
+    color: #32080C;
 }
 
 .navbar-default .navbar-header button {
@@ -134,22 +136,22 @@ p {
 }
 
 .panel-title {
-    color: #8A8780;
+    color: #333;
 }
 
 .products {
-    background-image: linear-gradient(to bottom, #D7D8C5 0px, #E6E5C4 100%);
+    background-image: linear-gradient(to bottom, #a7a7a7 0px, #C0C0C0 100%);
     margin-top: 60px;
     padding: 40px;
 }
 
 .products h2, .future-products h2 {
-    color: #E47267;
+    color: #32080C;
     margin-bottom: 40px;
 }
 
 .well {
-    background-image: linear-gradient(to bottom, #8A8780 0px, #222 100%);
+    background-image: linear-gradient(to bottom, #999 0px, #333 100%);
     border: none;
     color: #f6f6f6;
     margin-bottom: 0;
@@ -165,4 +167,10 @@ p {
 .well p a {
     color: #e8e8e8;
     font-weight: 500;
+}
+.well p a:hover{
+    color: #32080C;
+}
+.btn-default a:hover i{
+    color: #32080C;
 }
